@@ -1,0 +1,123 @@
+.titolo{
+    background-color: brown;
+    font-size: 1.5cm;
+    height: 2cm;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    top:0;
+    
+}
+.immagine1{
+    align-items: center;
+}
+ul#menu {
+    font-family: Verdana, sans-serif;
+    font-size: 11px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul#menu li {
+    background-color: brown;
+    border-bottom: 5px solid rgb(255, 255, 255);
+    display: block;
+    width: 352px;
+    height: 50px;
+    margin: 2px;
+    float: left;
+
+}
+ul#menu li a {
+    color: #fff;
+    display: block;
+    font-weight: bold;
+    line-height: 30px;
+    text-decoration: none;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+}
+ul#menu li.active, ul#menu li:hover {
+    background-color:rgb(62, 8, 8);
+    border-bottom: 5px solid rgb(255, 255, 255);
+}
+.paragrafo{
+   margin-top: 0px;
+   margin-left:70px;
+   margin-right: 70px;
+   font-size: 0.6cm;
+   text-align:left;
+ 
+  
+}
+.paragrafoconimmagine{
+    margin-top: 0px;
+   margin-left:270px;
+   margin-right: 70px;
+   font-size: 0.6cm;
+   text-align:left;
+}
+.immagine1{
+ margin-top: 0px;
+ margin-left: 110px;
+}
+
+.immaginehover:hover {
+    transform: scale(1.2);
+    opacity: 75%;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 50%;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+  
+  .popup h2 {
+    margin-top: 0;
+    color: #333;
+  }
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  .popup .close:hover {
+    color: #06D85F;
+  }
+  .popup .content {
+    max-height: 30%;
+    overflow: auto;
+  }
+
+  #Bottone_pagina_successiva {
+    width: 120px;
+    height: 50px;
+    position: absolute;
+    right: 30px;
+  }
